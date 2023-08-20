@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Student Name: Gökay Gülsoy -->
+<!--Student No: 270201072 -->
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/a79036c4ee.js" crossorigin="anonymous"></script>  
+  <title>Mr. Camel</title>
+  <style>
+     h1 {
+       background-color: rgb(230, 230, 230);
+       padding-top: 5px;
+       padding-left: 10px;
+       height: 80px;;
+       font-family:Verdana, Geneva, Tahoma, sans-serif
+     }
+
+     a.first {
+        background-color:rgb(93, 236, 236);
+        border-style: solid;
+        border-color: rgb(93, 236, 236); ;
+        font-size: 18px;
+        color: white;
+        text-decoration: none;
+        padding: 5px 110px 5px 15px ;
+        position: absolute;
+     }
+     
+     a {
+        background-color: white; 
+        font-size: 18px;
+        text-decoration: none;
+        color: black;
+        border-style: solid; 
+        padding: 5px 110px 5px 15px ;
+        position: absolute;
+        border-color:white;
+      }
+     
+      p.padded_p {
+          position: absolute;   
+          padding-top: 50px;      
+      }
+      
+      .main_floated {
+          float: right;
+      }
+
+      .vertical_line {
+          border-left: 1px solid rgb(185, 173, 173);
+          height: 777px;
+          padding-left: 15px;
+          margin-left: 50px;
+      }
+
+      .quote {
+          padding-left:5px; 
+          line-height: 1.45; 
+      }
+
+      th {
+         background-color:rgb(93, 236, 236);
+         color:white;
+         padding: 10px; 
+      }
+
+      tr {
+         font-size: 16px;
+      }
+
+      table,th,tr {
+         border: 2px solid rgb(240, 236, 236);
+         border-collapse: collapse;
+      }
+
+      td.non_symbol {
+          padding: 10px 10px 10px 10px;
+      }
+
+      body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+
+      footer {
+        color: white; 
+        margin-top: 250px; 
+        background-color: rgb(29, 28, 83); 
+        height: 100px; 
+        padding-top: 80px; 
+        padding-left: 800px; 
+        position: absolute; 
+        left: 0; 
+        width: 1500px
+      }
+      
+      
+  </style>
+</head>
+
+<body>
+    <header>
+      <h1>Mr. Camel</h1>
+    </header>
+    <aside style="float: left; padding-right: 40px">
+      <img src="https://kawa-news.com/wp-content/uploads/2020/12/chameau-732x500.jpg" width="160px"/>
+      <br>
+      <a class="first" href="#home">Home</a><br>
+      <br>
+      <a href="#career">Career</a>
+      <br><br>
+      <a href="#contact" style="padding-right: 102px">Contact</a>
+      <br><br>
+      <a href="#about" style="padding-right: 115px">About</a>
+    
+      <br><br>
+      <p class="padded_p quote"  style="float: left;">"Do something important in <br> life. I convert green grass to <br> code."<br>- Mr Camel</p>
+    </aside>
+    <main>
+      <div class="vertical_line" style="float: left"></div>
+      <h2>About Me</h2>
+      <p>I don't look like some handsome horse, but I am a real desert king. I can survive days without water.</p>
+      <h2>My Career</h2>
+      <p>I work as a web developer for a company that makes websites for camel businesses.</p>
+      <hr><br>
+      <h2>How Can I Help You?</h2>
+      <table>
+        <tr>
+          <th>SKILL 1</th>
+          <th>SKILL 2</th>
+          <th>SKILL 3</th>
+        </tr>
+        <tr>
+          <td><i class='fas fa-broom' style="font-size: 40px; padding-left: 60px; padding-bottom: 10px; padding-top: 5px"></i></td>
+          <td><i class="fas fa-archive" style="font-size: 40px; padding-left: 60px; padding-bottom: 10px; padding-top: 5px"></i></td>
+          <td><i class="fa-solid fa-truck-field" style="font-size: 40px; padding-left: 60px; padding-bottom: 10px; padding-top: 5px"></i>></i></td>
+        </tr>
+        <tr>
+          <td class="non_symbol">Cleaning kaktus in your backyard</td>
+          <td class="non_symbol">Storing some fat for you</td>
+          <td class="non_symbol">Taking you through the desert</td>
+        </tr>
+        <tr>
+      </table>
+      <form>
+        <label style="margin-top: 30px; position: absolute">Email: <input type="text" name="email"></label><br>
+        <label style="margin-top: 40px; position: absolute"> Mobile: <input type="text" name="mobile"> </label><br>
+        <label style="margin-top: 50px; position: absolute" ><textarea name="message" rows="5" cols="30">Enter your message</textarea></label><br>
+        <input style="margin-top: 120px; position: absolute" type="submit" value="Submit" /><br>
+      </form>
+    </main>
+    
+    <div style="position: absolute"></div>
+    <footer>© Copyright Mr. Camel</footer>
+</body>
+
+</html>
