@@ -22,8 +22,12 @@ functionality to React with Next.js
 14. RESTFUL APIs
 15. CRUD with Next.js
 
-### NOTE: Course doesn't have a specific textbook due to abundancy of material on topic,
-### but some of the recommended textbooks can be found on the following link
+### NOTE-1: Course doesn't have a specific textbook due to abundancy of material on topic
+### NOTE-2: Implementations of Homeworks are not provided in this repo because their size are quite large for github upload capacities, but I have provided homework pdf files anyway 
+
+
+
+
 
 
 
