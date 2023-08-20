@@ -1,0 +1,80 @@
+<!-- Student Name: Gökay Gülsoy
+     Student Number: 270201072
+-->
+
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+<meta charset="utf-8" >
+<meta name="viewport" content="device-width, inital-scale=1.0"> 
+<title>Gülbahçe Burger</title>
+<link rel="stylesheet" type="text/css" href="homework1.css">
+</head>
+<body>
+<script src="homework1.js"></script>
+<header>
+<div class="header_h1"><h1 id="header">Gülbahçe Burger</h1>
+    <button class="header_about_button" onclick="manipulateAboutUs()">About Us</button>
+    <button class="switch_mode" onclick="switchMode()">Switch to Dark Mode</button>  
+</div>
+</header>
+<section>
+<div id="about_us">    
+  <div style="padding-left: 15px; padding-top: 65px">About Us: </div>
+   <br>
+  <div style="padding-left: 15px; padding-bottom: 10px">Gülbahçe Burger is a fast food joint in Urla/İzmir. It opened for business in 2023</div>
+</div>
+</section>
+
+<section>
+<div class="search_bar">Please Enter your name for a personalized experience:
+    <input type="text" id="fname" name="fname" style="margin-left: 5px">
+    <button class="button" onclick="checkInput()">Submit</button>
+</div>    
+</section>
+<main>
+<div class="foods"><img src="pictures/cheeseburger.jpg" width="300" height="200" alt="Cheeseburger">
+<p style="margin-top: 5px;">Cheeseburger<span style="padding-left: 130px">70 TL</span></p></div>
+<div class="foods"><img src="pictures/onion_rings.jpg" width="300" height="200" alt="Onion Rings">
+    <p style="margin-top: 5px;">Onion Rings<span style="padding-left: 150px">30 TL</span></p>
+</div>
+<div class="foods"><img src="pictures/fries.jpg" width="300" height="200" alt="Frech Fries">
+    <p style="margin-top: 5px;">French Fries<span style="padding-left: 140px">25 TL</span></p>
+</div>
+<div class="foods2" style="clear: left; float: left"><img src="pictures/chicken_burger.jpg" width="300" height="200" alt="Chicken Burger">
+    <p style="margin-top: 5px;">Chicken Burger<span style="padding-left: 120px">60 TL</span></p>
+</div>
+<div class="foods2"><img src="pictures/fizzy_drink.jpg" width="300" height="200"
+        alt="Cheeseburger">
+    <p style="margin-top: 5px;">Fizzy Drink<span style="padding-left: 160px">20 TL</span></p>
+</div>
+<div class="foods2"><img src="pictures/water.jpg" width="300" height="200"
+        alt="Cheeseburger">
+    <p style="margin-top: 5px;">Water<span style="padding-left: 200px">60 TL</span></p>
+</div>
+</main>
+<footer style="clear: left">
+<div class="footer_part">
+    <button id="location1" onclick="manipulateContactInfo()">Contact Info</button>   
+    <button id="location2" onclick="manipulateLocationInfo()">Location</button>
+</div>
+
+<div class="contact_info">
+<img src="pictures/phone emblem.jpg" class="contact_info_images" alt="Telephone emblem">
+<p style="padding-top: 10px; float: left; padding-right: 100px">+90 123 456 7788</p>
+<img src="pictures/instagram_emblem.webp" class="contact_info_images" alt="Instagram emblem">
+<p style="padding-top: 10px; float: left; padding-right: 100px">instagram.com/gbahceburger</p>
+<img src="pictures/twitter_emblem.jpg" class="contact_info_images" alt="Twitter emblem">
+<p style="padding-top: 10px; float: left; padding-right: 100px">twitter.com/gbahceburger</p>
+<img src="pictures/mail_emblem.png" class="contact_info_images" alt="Mail emblem">
+<p style="padding-top: 25px">gbahceburger@mail.com</p>
+</div>
+
+<div class="location_info">
+    <img src="pictures/fake_map_location.png" width="600" height="400" alt="Map location IZTECH" style="padding-left: 1230px; float: right">
+    <p style="padding-top: 200px; padding-left: 30px">Address:</p>
+    <p style="padding-left: 30px; padding-bottom: 55px">12087 Sk. Gülbahçe/Urla/İzmir</p>
+</div>
+</footer>
+</body>
+</html>
