@@ -23,11 +23,3 @@ functionality to React with Next.js
 15. CRUD with Next.js
 
 ### NOTE-1: Course doesn't have a specific textbook due to abundancy of material on topic
-### NOTE-2: Implementations of Homeworks are not provided in this repo because their size are quite large for github upload capacities, but I have provided homework pdf files anyway 
-
-
-
-
-
-
-
