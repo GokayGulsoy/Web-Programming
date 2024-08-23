@@ -1,0 +1,560 @@
+/*
+  CSS file that contains 
+  styles for React components
+*/
+
+header {
+  padding-bottom: 40px;
+}
+
+footer {
+  clear: left;
+}
+
+div h1 {
+    color: #000000;
+    text-shadow: 2px 2px 80px;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 40px;
+    float: left;
+}
+
+.header_h1 {
+    background-color: rgb(177, 189, 189);
+    width: 2020px;
+    height: 40px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    margin-bottom: 100px;
+    float: left;
+}
+
+.header_about_button {
+    color: #001AFF;
+    border: none;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    background-color: rgb(177, 189, 189);
+
+}
+
+.switch_mode {
+    display: inline;
+    color: #032900;
+    padding-left: 60px;
+    border: none;
+    background-color: rgb(177, 189, 189);
+}
+
+.footer_part {
+    background-color: rgb(177, 189, 189);
+    padding-left: 20px;
+    margin-top: 850px;
+    padding-top: 40px;
+    height: 80px;
+    width: 2020px;
+}
+
+.footer_part2 {
+    background-color: rgb(177, 189, 189);
+    padding-left: 20px;
+    margin-top: 320px;
+    padding-top: 40px;
+    height: 80px;
+    width: 2020px;
+}
+
+.Basket-box {
+  border: 1px solid #000;
+  margin-left: 1000px;
+  margin-top: 10px;
+  background: #F2F2F2;
+}
+
+.Basket-box2 {
+  border: 1px solid #000;
+  margin-left: 1220px;
+  margin-top: 10px;
+  background: #F2F2F2;
+}
+
+.Basket-text {
+   display: flex;
+   width: 188px;
+   height: 16px;
+   justify-content: center;
+   flex-shrink: 0;
+   padding-top: 15px;
+   color: #000;
+   font-family: Inter;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+} 
+
+.Basket-price {
+   display: inline;
+   color: red;
+}
+
+.Basket-total {
+   width: 1410px;
+   height: 186px;
+   border: 0.5px solid #000;
+   background: #F4F4F4;
+   margin-top: 190px;
+   margin-left: 180px;
+}
+
+.Basket-total-price {
+   float: left;
+   padding-left: 20px;
+   padding-top: 85px;
+}
+
+.Basket-icon {
+  width: 45px;
+  height: 24px;
+}
+
+.Basket-total-icon {
+  float: left;
+  width: 170px;
+  height: 104px;
+  padding-top: 35px;
+}
+
+.Basket-contents {
+   width: 1410px;
+   height: 618px;
+   flex-shrink: 0;
+   border: 1.5px solid #000;
+   background: #F4F4F4;
+   margin-left: 180px;
+   overflow: scroll;
+}
+
+.PurchaseButton {
+  display: flex;
+  flex-direction: column;
+  width: 295px;
+  height: 84px; 
+  border: 1px solid #000;
+  background: #F00;
+  margin-left: 1050px;
+  margin-top: 60px;
+}
+
+.PurchaseText {
+  color: #FFF;
+  text-align: center;
+  font-size: 40px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  width: 280px;
+  height: 66px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  padding-right: 40px;
+}
+
+.Basket-itemName {
+    float: left;
+    width: 180px;
+    height: 97px;
+    flex-shrink: 0;
+    background: #9D9D9D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 15px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 160px;
+    margin-top: 2px;
+}
+
+.Basket-itemOption {
+    float: left;
+    width: 360px; 
+    height: 97px;
+    display: flex;
+    text-align: center;
+    background: #9D9D9D;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 15px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 20px;
+    margin-top: 2px;
+} 
+
+.Basket-itemQuantity {
+    float: left;
+    width: 180px;
+    height: 97px; 
+    display: flex;
+    background: #9D9D9D;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex-shrink: 0; 
+    color: #000;
+    font-size: 15px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 20px;
+    margin-top: 2px;  
+}
+
+.Basket-itemPrice {
+    clear: float;
+    width: 180px;
+    height: 97px;
+    flex-shrink: 0;
+    background: #9D9D9D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-size: 25px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 940px;
+    margin-top: 6px; 
+}
+	
+.Link {
+  text-decoration: none;
+}
+
+.ItemDetailBox {
+   float: left;
+   margin-left: 300px;
+   width: 685px;
+   height: 721px; 
+   border: 0.5px solid #000;
+   background: #F4F4F4;
+}
+
+.ItemDetailBoxText {
+  display: flex;
+  width: 621px;
+  height: 69px;
+  padding-top: 40px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #000;
+  text-align: center;
+  font-size: 64px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.ItemPrice {
+  display: flex;
+  width: 208px;
+  height: 66px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;  
+  color: #000;
+  text-align: center;
+  font-size: 40px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 210px;
+  padding-top: 40px;
+}
+
+.ItemBoxImage {
+   width: 630px;
+   height: 432px;
+   flex-shrink: 0;
+   padding-left: 28px;
+}
+
+.SelectionBox {
+  display: flex;
+  width: 670px;
+  height: 721px;
+  flex-shrink: 0; 
+  background-color: #E6E6E6;
+  margin-left: 980px;
+  margin-top: 140px;
+
+}
+
+.ItemOptions {
+   clear: left;
+   display: flex;
+   width: 400px;
+   height: 66px;
+   flex-direction: column;
+   justify-content: center;
+   flex-shrink: 0;
+   color: #000;
+   font-size: 24px;
+   font-family: Inter;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   padding-left: 160px;
+   margin-top: 220px;
+}
+
+.Item {
+   padding-top: 25px;
+}
+.SingleItem {
+   display: flex;
+   width: 390px;
+   height: 195px;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   flex-shrink: 0;
+   color: #000;
+   font-size: 44px;
+   font-family: Inter;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+
+.SingleItemPrice {
+   display: flex;
+   width: 208px;
+   height: 66px;
+   flex-direction: column;
+   justify-content: center;
+   flex-shrink: 0;  
+   color: #000;
+   font-size: 48px;
+   font-family: Inter;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal; 
+   padding-left: 95px;
+   padding-top: 50px;
+}
+
+.Add-to-Basket {
+   display: flex;
+   width: 400px;
+   height: 62px;
+   flex-direction: column;
+   background: #0A7D00;
+   justify-content: center;
+   flex-shrink: 0;
+   color: #FFF;
+   text-align: center;
+   font-size: 32px;
+   font-family: Inter;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   margin-top: 160px;
+}
+
+#location1 {
+    border: none;
+    background-color: rgb(177, 189, 189);
+    font-size: 15px;
+    color: #001AFF;
+}
+
+#location2 {
+    border: none;
+    font-size: 15px;
+    margin-left: 1620px;
+    background-color: rgb(177, 189, 189);
+    color: #001AFF;
+}
+
+#about_us {
+    display: none;
+    border: 1px solid black;
+    background-color: rgb(236, 231, 231);
+    width: 2020px;
+}
+
+.phone_img {
+   padding-top: 10px; 
+   float: left; 
+   padding-right: 100px;
+}
+
+.instagram_emblem {
+   padding-top: 10px; 
+   float: left; 
+   padding-right: 100px;
+}
+
+
+.twitter_emblem {
+   padding-top: 10px; 
+   float: left; 
+   padding-right: 100px;
+}
+
+
+.mail_emblem {
+   padding-top: 25px;
+}
+
+.address {
+   padding-top: 210px; 
+   padding-left: 30px;
+}
+
+.address_output {
+   padding-left: 30px; 
+   padding-bottom: 55px;
+}
+
+.img_fake_map {
+   padding-left: 1230px; 
+   float: right;
+}
+
+.about_us_div1 {
+   padding-left: 15px; 
+   padding-top: 15px;
+}
+
+.about_us_div2 {
+   padding-left: 15px; 
+   padding-bottom: 10px; 
+}
+
+.name_box_input {
+  margin-left: 5px;
+}
+
+.search_bar {
+    width: 2000px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-width: 1px;
+    clear: left;
+    background-color: rgb(236, 239, 241);
+}
+
+.button {
+    margin-left: 5px;
+    background-color: grey;
+    border: 2px solid;
+    padding: 4px 4px;
+    color: rgb(255, 255, 255);
+}
+
+.foods {
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-style: solid;
+    border-width: 1px;
+    width: 300px;
+    height: 230px;
+    background-color: rgb(236, 231, 231);
+}
+
+.foods2 {
+    clear: left;
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-style: solid;
+    border-width: 1px;
+    width: 300px;
+    height: 230px;
+    background-color: rgb(236, 231, 231);
+}
+
+.food_paragraph {
+   margin-top: 5px;   
+}
+
+.food_span {
+   padding-left: 125px
+}
+
+.contact_info {
+    background-color: #ece7e7;
+    padding-bottom: 20px;
+    margin-top: 60px;
+    display: none;
+    width: 2025px;
+}
+
+.location_info {
+    background-color: #ece7e7;
+    display: none;
+    margin-top: 60px;
+}
+
+.contact_info_images {
+    float: left;
+    padding-left: 30px;
+    padding-top: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.contact_img {
+  padding-top: 10px; 
+  float: left; 
+  padding-right: 100px;
+}
+
+.mail_emblem {
+   padding-top: 25px
+}
+
+.footer_part {
+    background-color: rgb(177, 189, 189);
+    padding-left: 0px;
+    margin-left: 0;
+    margin-top: 1250px;
+    padding-top: 40px;
+    height: 80px;
+    width: 2020px;
+}
+
